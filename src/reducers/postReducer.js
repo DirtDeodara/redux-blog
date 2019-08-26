@@ -16,4 +16,3 @@ export default function postReducer(state = initialState, action) {
 }
 
 
-store.dispatch(createPost({ title: 'stuff', body: 'things and more things' }));
